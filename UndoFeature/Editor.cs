@@ -5,7 +5,7 @@ namespace UndoFeature
     {
 
         private string _content = string.Empty;
-        ContentHistoryManager _historyManager = new ContentHistoryManager();
+        IContentHistoryManager _historyManager = new ContentHistoryManager();
 
         public void Start()
         {
@@ -63,7 +63,6 @@ namespace UndoFeature
             }
 
         }
-
 
         public void TakeInput()
         {
