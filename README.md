@@ -3,7 +3,7 @@
 Basic editor immitation for Undo and Redo features.
 
 
-##Spec
+## Spec
 >1. Store inital state
 >2. Take input & maintain state.
 >3. Revert to previous state (if any).
